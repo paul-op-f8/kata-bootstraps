@@ -3,10 +3,12 @@ phpunit setup
 
 This is a simple bootstrap project for PHP with phpunit
 
-For PHP 7.2 or above just run:
+For PHP 7.2 or above (might need to update the composer.json with your version) just run:
 
 ```
-./composer install
+#https://getcomposer.org/download/
+composer update
+composer install
 
 ```
 
